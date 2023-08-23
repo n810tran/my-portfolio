@@ -19,3 +19,7 @@ This is a portfolio that displays my previous work, information about myself, an
 ## Site Preview
 
 ![Screenshot]()
+
+## Credits
+
+[meyerweb](http://meyerweb.com/eric/tools/css/reset) reset.css was added, but not utilized at this time
