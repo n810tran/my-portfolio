@@ -19,7 +19,7 @@ background-color: white
 }
 
 .apps img{
-    max-width: 200px;
+    display: flex;
     max-height: 200px;
 }
 
