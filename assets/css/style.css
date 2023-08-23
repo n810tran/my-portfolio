@@ -8,19 +8,17 @@ background-color: white
 
 }
 
+
 #about div{
     display: flex;
+    align-items: center;
 }
 
 #profile-image{
     position: relative;
     float: left;
-    width:33%;
-}
-
-.apps img{
-    display: flex;
     max-height: 200px;
+    padding: 10px
 }
 
 header{
@@ -36,14 +34,22 @@ nav a {
     text-decoration: none;
 }
 
+.apps img{
+    display: flex;
+    max-height: 200px;
+    padding: 10px
+}
 .apps{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    width: 50%;
 }
-
+#first{
+    height: 300px;
+}
 section h2 {
     display: flex;
     flex-direction: row;
@@ -60,4 +66,8 @@ section h2 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+}
+
+footer{
+    padding: 10px;
 }
