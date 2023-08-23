@@ -1,6 +1,63 @@
-:root{
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+color: black;
+background-color: white
+
+}
+
+#about div{
+    display: flex;
+}
+
+#profile-image{
+    position: relative;
+    float: left;
+    width:33%;
+}
+
+.apps img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+header{
+    align-items: center;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-between;
+    background-color: #a6a1a1
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.apps{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section h2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+}
 
 
-
-
+.links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
